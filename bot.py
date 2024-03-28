@@ -19,9 +19,9 @@ from p_bar import progress_bar
 load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+API_ID = int(os.environ.get("API_ID=12606917"))
+API_HASH = os.environ.get("API_HASH=f25113b8c17dca6fa7abda53a86bd4f7")
+BOT_TOKEN = os.environ.get("BOT_TOKEN=6466139568:AAEOFRvMrLPojNyew2SNbqEErl7ABy_7-NU")
 NAME = os.environ.get("NAME")
 
 bot = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
